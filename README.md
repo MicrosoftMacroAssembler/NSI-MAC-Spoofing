@@ -1,6 +1,7 @@
 # NSI-MAC-Spoofing
 NSI-Spoofer is MAC address spoofing that hooks the Network Store Interface completion routine. <br />
 It intercepts NSI IRP completions to modify network adapter information before it reaches usermode. <br />
+For the complete structures for NSI MAC spoofing [**Click here**](./structures.hxx) <br />
 
 # What Is NSI Hooking?
 NSI hooking intercepts network information queries:
